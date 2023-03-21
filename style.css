@@ -1,0 +1,26 @@
+head
+{
+    background-color: #3174a7;
+    color:#3174a7
+}
+body{
+    background-color: darkblue;
+}
+thingy
+{
+    background-color: #3174a7;
+    color:#3174a7
+}
+ul{
+    
+    color:rgb(119, 194, 194);
+    position: fixed;
+}
+h1{
+    color:rgb(119, 194, 194);
+    position:fixed;
+    right: 40%;
+}
+p{
+    color:rgb(119, 194, 194);
+}
