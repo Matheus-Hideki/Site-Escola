@@ -1,23 +1,19 @@
 head
 {
-    background-color: #3174a7;
-    color:#3174a7
+    background-color: rgb(177, 173, 114);
+    color:rgb(177, 173, 114);
 }
 body{
     background-color: #2c2918;
 }
-thingy
-{
-    background-color: #3174a7;
-    color:#3174a7
-}
 ul{
     
-    color:rgb(119, 194, 194);
-    position: fixed;
+    color:rgb(177, 173, 114);
+    position: relative;
+    font-family:'Courier New';
 }
 h1{
-    color:rgb(89, 153, 153);
+    color:rgb(179, 177, 92);
     position:absolute;
     text-align: center;
     right: 33%;
@@ -29,7 +25,7 @@ h1{
 
 }
 p{
-    color:rgb(119, 194, 194);
+    color:rgb(177, 173, 114);
 }
 .square-create
 {
@@ -38,26 +34,15 @@ p{
     
 }
 @keyframes loop1 {
-    0%   {top:1%;}
-    25%  {top:0.5%;}
-    50%  {top:-0%;}
-    75%  {top:0.5%;}
-    100%  {top:1%;}
-  }
-@keyframes example {
-    0%   {background-color:red; left:0px; top:0px;}
-    25%  {background-color:yellow; left:200px; top:0px;}
-    50%  {background-color:blue; left:200px; top:200px;}
-    75%  {background-color:green; left:0px; top:200px;}
-    100% {background-color:red; left:0px; top:0px;}
+    0%   {top:1%;right:33%;}
+    25%  {top:0.5%;right:32.9%;}
+    50%  {top:-0%;right:33%;}
+    75%  {top:0.5%;right:33.1%;}
+    100%  {top:1%;right:33%;}
   }
   img
   {
     position: relative;
-    height: 5%;
-    width: 5%;
-    top: 0%;
-    left:0%;
   }
   .a
   {
