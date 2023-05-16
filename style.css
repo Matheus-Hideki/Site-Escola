@@ -11,9 +11,10 @@ ul{
     color:rgb(177, 173, 114);
     position: relative;
     font-family:'Courier New';
+    font-family: RaleWay;
 }
 h1{
-    color:rgb(179, 177, 92);
+    color:rgb(255, 255, 255);
     position:absolute;
     text-align: center;
     right: 33%;
@@ -21,11 +22,27 @@ h1{
 
     animation-timing-function: ease-in-out;
     animation: 10s linear 0s infinite alternate loop1;
+    
 
 
 }
+@font-face {
+    font-family: 'RaleWay';
+    src: url('Raleway-Bold.ttf'); /* IE9 Compat Modes */
+    src: url('Raleway-Bold.ttf?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('Raleway-Bold.ttf') format('ttf'), /* Super Modern Browsers */
+         url('Raleway-Bold.ttf') format('ttf'), /* Pretty Modern Browsers */
+         url('Raleway-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+  }
+  
 p{
     color:rgb(177, 173, 114);
+    font-family: RaleWay;
+}
+.sobre{
+    text-align: center;
+    color:rgb(177, 173, 114);
+    font-size: 125%;
 }
 .square-create
 {
@@ -33,18 +50,39 @@ p{
     position: absolute;
     
 }
+.square-create2
+{
+    background-color: #9cc76b; 
+    position: absolute;
+}
+
 @keyframes loop1 {
-    0%   {top:1%;right:33%;}
-    25%  {top:0.5%;right:32.9%;}
-    50%  {top:-0%;right:33%;}
-    75%  {top:0.5%;right:33.1%;}
-    100%  {top:1%;right:33%;}
+    0%   {top:1%;right:33%;position: absolute;}
+    25%  {top:0.5%;right:32.9%;position: absolute;}
+    50%  {top:-0%;right:33%;position: absolute;}
+    75%  {top:0.5%;right:33.1%;position: absolute;}
+    100%  {top:1%;right:33%;position: absolute;}
   }
+  
+
+  @keyframes loop2 {
+    0%   {top:1%;}
+    25%  {top:0.5%;}
+    50%  {top:-0%;}
+    75%  {top:0.5%;}
+    100%  {top:1%;}
+  }
+  @keyframes loop3 {
+    0%   {top:4%;right:33%;}
+    25%  {top:3.5%;right:32.9%;}
+    50%  {top:3%;right:33%;}
+    75%  {top:3.5%;right:33.1%;}
+    100%  {top:4%;right:33%;}
+  }
+
+
   img
   {
     position: relative;
   }
-  .a
-  {
-    animation: 10s linear 0s infinite alternate loop1;
-  }
+ 
