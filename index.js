@@ -6,10 +6,17 @@ let angle = 0;
 
 let mouseX = 0;
 let mouseY = 0;
+function start()
+{
+  var audio2 = new Audio('elevator.mp3');
+  audio2.play();
+}
 
   function execute()
   {
     setInterval(animation, 10); //a função está em milisegundos, 1000 milisegundos é 1 minuto
+    var audio = new Audio('AAAAUGH.mp3');
+    audio.play();
   }
 
 
